@@ -1,0 +1,19 @@
+.toast{
+    max-width: 100%;
+    width : 82%;
+}
+.toast:not(:last-child) {
+    margin-bottom: 0;
+}
+.btn-form{
+    width : 15%;
+}
+.label{
+    margin-left: 380px;
+}
+#checkbox{
+    margin-left: 220px;
+}
+#checkbox:checked ~ .task-body{
+    background: slategrey;
+}
